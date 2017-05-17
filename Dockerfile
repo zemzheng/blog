@@ -16,4 +16,4 @@ EXPOSE 80
 
 # The CMD instruction provides default execution command for an container
 # Start Nginx and keep it from running background
-CMD ["hexo", "server" "-p", "80"]
+CMD hexo server -i 0.0.0.0 -p 80
