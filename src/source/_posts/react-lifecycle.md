@@ -14,10 +14,10 @@ comments : true
 <!-- more -->
 
 附DEMO：
-<a class="jsbin-embed" href="http://jsbin.com/poravu/embed?console,output">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.35.12"></script>
+<a class="jsbin-embed" href="//jsbin.com/poravu/embed?console,output">JS Bin on jsbin.com</a><script src="//static.jsbin.com/js/embed.min.js?3.35.12"></script>
 
 ### 父子组件生命周期的
 接下来来考虑父子组件嵌套，先给出DEMO：
-<a class="jsbin-embed" href="http://jsbin.com/zuqexo/embed?console,output">Lifecycle Between Parent and Child on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.35.12"></script>
+<a class="jsbin-embed" href="//jsbin.com/zuqexo/embed?console,output">Lifecycle Between Parent and Child on jsbin.com</a><script src="//static.jsbin.com/js/embed.min.js?3.35.12"></script>
 
 先点击 Change Tips 按钮

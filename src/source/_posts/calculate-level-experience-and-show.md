@@ -137,4 +137,4 @@ ch哥 说要是让你做，怎么搞？
 
 根据上面得到的 level 区间， level - exp 曲线，就可以方便算出当前等级的进度条了：
 
-<a class="jsbin-embed" href="http://jsbin.com/necuti/embed?js,output">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.35.12"></script>
+<a class="jsbin-embed" href="//jsbin.com/necuti/embed?js,output">JS Bin on jsbin.com</a><script src="//static.jsbin.com/js/embed.min.js?3.35.12"></script>
