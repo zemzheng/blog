@@ -155,6 +155,6 @@ overflow : hidden
 ## 后续
 
 - [x] 给 chrome 那边一个反馈： [733295](https://bugs.chromium.org/p/chromium/issues/detail?id=733295)
-- [ ] 给 react-lazyload 这边一个 bug 和 push
+- [x] 给 react-lazyload 这边关联一个 [bug](https://github.com/jasonslyvia/react-lazyload/issues/84) 和 [push](https://github.com/jasonslyvia/react-lazyload/pull/98)
 
 
