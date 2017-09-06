@@ -1,3 +1,3 @@
 [submodule "themes/ziey"]
-	path = src/themes/ziey
+	path = themes/ziey
 	url = https://github.com/zemzheng/hexo-theme-yilia.git
