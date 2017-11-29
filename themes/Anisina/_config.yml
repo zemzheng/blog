@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Ziey # your blog title name
+title: Haojen # your blog title name
 subtitle:  
-author: Zem Zheng # 作者
+author: Haojen Ma # 作者
 language: 
 timezone: 
 
 # custom Site settings
 # more detail check out docs
-SEOTitle: Zem's blog 
-header-img: /images/bg.jpg
-email: zemzheng@gmail.com
-description: ZemZheng's blog
+SEOTitle: Haojen's blog 
+header-img: //o7bkkhiex.bkt.clouddn.com/lion-blur-bg.jpg
+email: HaojenMa@gmail.com
+description: "马浩珍在 Github 上的个人博客"
 keyword: # seo key words
 
 favicon: # your favicon png
@@ -22,17 +22,17 @@ favicon: # your favicon png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.ziey.me
+url: http://haojen.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # SNS settings
 # RSS:
-weibo_username: 
-zhihu_username: 
-github_username: zemzheng
-twitter_username: 
+weibo_username: haojen
+zhihu_username: megahertz
+github_username: haojen
+twitter_username: ehazon
 facebook_username:  
 linkedin_username:  
 
@@ -41,18 +41,12 @@ anchorjs: false                        # if you want to customize anchor. check 
 
 
 # Disqus settings 
-disqus_username: # blog-ziey
-
-# Changyan
-changyan_appid : cyt155Tu8
-changyan_conf : prod_5c0d87a13821feb670352ec7e9817f99
+disqus_username: 
 
 # Duoshuo settings
 duoshuo_username:  # 你的多说帐号
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-miitbeian : 粤ICP备17048162号
 
 # Use livere
 use_livere:
@@ -65,8 +59,8 @@ ga_track_id:             # Format: UA-xxxxxx-xx
 ga_domain:
 
 # Sidebar settings
-sidebar-about-description: 前端开发, Tencent. # 个人描述
-sidebar-avatar:  /images/head.jpg   # use absolute URL
+sidebar-about-description: # 个人描述
+sidebar-avatar:     # use absolute URL
 
 
 # Featured Tags
