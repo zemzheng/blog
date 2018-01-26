@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>How to Git</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/black.min.css" />
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section data-markdown="content"
+                data-separator="^-\s-\s-"
+                data-separator-vertical="^---"  
+                data-charset="utf-8"
+            />
+        </div>
+    </div>
+</body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/head.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.js"></script>
+<script>
+    const prefix = 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/';
+    Reveal.initialize({
+        history : true,
+        dependencies: [
+            // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+            { src: `${ prefix }lib/js/classList.js`, condition: function() { return !document.body.classList; } },
+
+            // Interpret Markdown in <section> elements
+            { src: `${ prefix }plugin/markdown/marked.js`, condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: `${ prefix }plugin/markdown/markdown.min.js`, condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        ]
+    });
+</script>
