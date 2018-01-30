@@ -5,8 +5,7 @@ layout: layout
 <% if(is_home()){ %>
 <style>
 
-    .custom-haojen-container .post-preview:nth-of-type(1),
-    .custom-haojen-container .post-preview-poetry:nth-of-type(1) {
+    .custom-haojen-container .post-preview:nth-of-type(1){
         text-align: center;
         background-repeat: no-repeat;
         border-radius: 3px;
@@ -16,12 +15,6 @@ layout: layout
         display: table;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.16);
-    }
-
-    /*去掉诗歌的背景图片*/
-    .custom-haojen-container .post-preview-poetry:nth-of-type(1) {
-        background-image: none !important;
-        background-color: rgba(255, 248, 220, 0.5);
     }
 
     .custom-haojen-container .post-preview:nth-child(1) h2,
@@ -39,14 +32,6 @@ layout: layout
         font-size: .9em;
         font-weight: 300;
         margin-top: 0;
-    }
-
-    .custom-haojen-container .post-preview-poetry:nth-child(1) .post-subtitle {
-        letter-spacing: 6px;
-        font-size: 18px;
-        font-family: unset;
-        font-weight: 400;
-        color: rgba(0, 0, 0, .75)
     }
 
     /*不显示摘要*/
@@ -70,25 +55,9 @@ layout: layout
         vertical-align: middle;
     }
 
-    /*诗词标题*/
-    .custom-haojen-container .post-preview-poetry:nth-child(1) h2 {
-        font-size: 35px;
-        font-family: STKaiti;
-        color: rgba(0, 0, 0, .8);
-    }
-
-    .custom-haojen-container .post-preview-poetry:nth-of-type(1) .post-meta {
-        color: #0e2231;
-    }
-
     @media (max-width: 768px) {
         .custom-haojen-container .post-preview:nth-child(1) {
             height: 240px;
-        }
-
-        .custom-haojen-container .post-preview-poetry:nth-child(1) h2 {
-            font-size: 28px !important;
-            margin-top: 0;
         }
 
         .custom-haojen-container .post-preview:nth-child(1) .post-subtitle {
@@ -107,10 +76,6 @@ layout: layout
     @media (max-width: 400px) {
         .custom-haojen-container .post-preview:nth-child(1) {
             height: 195px;
-        }
-
-        .custom-haojen-container .post-preview-poetry:nth-child(1) h2 {
-            font-size: 20px !important;
         }
 
         .custom-haojen-container .post-preview:nth-child(1) .post-subtitle {
