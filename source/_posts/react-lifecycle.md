@@ -11,7 +11,6 @@ comments : true
 
 {% asset_img single.png 单个 React 组件的生命周期 %}
 
-<!-- more -->
 
 附DEMO：
 <a class="jsbin-embed" href="//jsbin.com/poravu/embed?console,output">JS Bin on jsbin.com</a><script src="//static.jsbin.com/js/embed.min.js?3.35.12"></script>
