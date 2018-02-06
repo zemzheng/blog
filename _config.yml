@@ -4,14 +4,14 @@
 
 # Site
 title: Ziey # your blog title name
-subtitle:  
+subtitle:
 author: Zem Zheng # 作者
-language: 
-timezone: 
+language:
+timezone:
 
 # custom Site settings
 # more detail check out docs
-SEOTitle: Zem's blog 
+SEOTitle: Zem's blog
 header-img: /images/bg.jpg
 email: zemzheng@gmail.com
 description: ZemZheng's blog
@@ -29,18 +29,18 @@ permalink_defaults:
 
 # SNS settings
 # RSS:
-weibo_username: 
-zhihu_username: 
+weibo_username:
+zhihu_username:
 github_username: zemzheng
-twitter_username: 
-facebook_username:  
-linkedin_username:  
+twitter_username:
+facebook_username:
+linkedin_username:
 
 # Build settings
 anchorjs: false                        # if you want to customize anchor. check out line:181 of `post.html`
 
 
-# Disqus settings 
+# Disqus settings
 disqus_username: # blog-ziey
 
 # Changyan
@@ -85,6 +85,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - 'how-to-git/*.html'
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -137,9 +138,9 @@ theme: Anisina
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 
-  repo: 
-  branch: 
+  type:
+  repo:
+  branch:
 
 
 # img CDN path
@@ -156,10 +157,10 @@ post-default-img: /images/top.jpg #博文默认的图片
 post-default-img-mobile: /images/top.jpg #移动端显示的图片
 
 # search api , set your custom key
-swiftype_key: 
+swiftype_key:
 
 
-# archive page title 
+# archive page title
 archive:
     title: archives
     description: 可以根据归档日期检索所有文件

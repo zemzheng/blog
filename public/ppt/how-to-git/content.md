@@ -3,11 +3,11 @@
 - - -
 
 ## what is git
-[![wiki-git](./wiki-git.png)](https://zh.m.wikipedia.org/wiki/Git)
+[![wiki-git](/ppt/how-to-git/wiki-git.png)](https://zh.m.wikipedia.org/wiki/Git)
 
 - - -
 `Linus Torvalds`<br/>
-[![linus](./linus.png)](https://en.m.wikiquote.org/wiki/Linus_Torvalds)
+[![linus](/ppt/how-to-git/linus.png)](https://en.m.wikiquote.org/wiki/Linus_Torvalds)
 
 
 - - -
@@ -23,14 +23,14 @@
 
 ---
 #### svn
-![svn 流程](./svn.jpg)
+![svn 流程](/ppt/how-to-git/svn.jpg)
 
 ---
 ### 单一中心与分布式
 
 ---
 #### git
-![git 流程](./git.jpg)
+![git 流程](/ppt/how-to-git/git.jpg)
 
 ---
 ### 拉分支与打tag
@@ -56,7 +56,7 @@
 
 ---
 #### svn
-![svn branch](./svn-line.png)
+![svn branch](/ppt/how-to-git/svn-line.png)
 
 ---
 #### git
@@ -65,7 +65,7 @@
 
 ---
 #### git
-![git branch](./git-line.png)
+![git branch](/ppt/how-to-git/git-line.png)
 
 
 ---
@@ -90,14 +90,14 @@
 - 远端版本库（Remote Repository）
 
 ---
-![git process](./git-process-summary.png)
+![git process](/ppt/how-to-git/git-process-summary.png)
 
 ---
-![git process](./git-process.jpg)
+![git process](/ppt/how-to-git/git-process.jpg)
 
 ---
 ### git - 简易指南
-[![git - 简易指南](./git-guide.png)](http://www.bootcss.com/p/git-guide/)
+[![git - 简易指南](/ppt/how-to-git/git-guide.png)](http://www.bootcss.com/p/git-guide/)
 
 - - -
 ## Git 常用指令
@@ -129,7 +129,7 @@
 - git remote -v
 
 ---
-![git command](./git-command-summary.png)
+![git command](/ppt/how-to-git/git-command-summary.png)
 
 ---
 ### 其他
@@ -142,7 +142,7 @@
 
 ---
 ### GIT CHEAT SHEET
-[![GIT CHEAT SHEET](./git-command-cheat.png)](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+[![GIT CHEAT SHEET](/ppt/how-to-git/git-command-cheat.png)](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
 
 
@@ -152,15 +152,15 @@
 
 ---
 ### github
-![github.logo](./github.logo.png)
+![github.logo](/ppt/how-to-git/github.logo.png)
 
 ---
 ### gitlab
-![gitlab.logo](./gitlab.logo.png)
+![gitlab.logo](/ppt/how-to-git/gitlab.logo.png)
 
 ---
 ### git.code.oa.com
-![git.code.oa.logo](./git.code.logo.svg)
+![git.code.oa.logo](/ppt/how-to-git/git.code.logo.svg)
 
 ---
 
@@ -179,10 +179,10 @@
 ---
 
 ### Fork
-![fork](./fork.jpg)
+![fork](/ppt/how-to-git/fork.jpg)
 
 ---
-![github.fork](./github.fork.png)<br/>
-![gitlab.fork](./gitlab.fork.png)<br/>
-![gitlab.fork](./git.code.fork.png)
+![github.fork](/ppt/how-to-git/github.fork.png)<br/>
+![gitlab.fork](/ppt/how-to-git/gitlab.fork.png)<br/>
+![gitlab.fork](/ppt/how-to-git/git.code.fork.png)
 
