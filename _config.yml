@@ -61,7 +61,7 @@ use_livere:
 # Baidu Analytics
 ba_track_id:
 # Google Analytics
-ga_track_id:             # Format: UA-xxxxxx-xx
+ga_track_id: UA-98276972-2             # Format: UA-xxxxxx-xx
 ga_domain:
 
 # Sidebar settings
