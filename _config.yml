@@ -41,11 +41,11 @@ anchorjs: false                        # if you want to customize anchor. check 
 
 
 # Disqus settings
-disqus_username: # blog-ziey
+disqus_username: blog-ziey
 
 # Changyan
-changyan_appid : cyt155Tu8
-changyan_conf : prod_5c0d87a13821feb670352ec7e9817f99
+changyan_appid : # cyt155Tu8
+changyan_conf : # prod_5c0d87a13821feb670352ec7e9817f99
 
 # Duoshuo settings
 duoshuo_username:  # 你的多说帐号
