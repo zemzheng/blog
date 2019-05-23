@@ -8,7 +8,7 @@ tags:
 
 # how to git
 
-前阵子在新加入的项目组内分享了 git 的介绍， [ppt](/ppt/?title=how-to-git&md=/ppt/how-to-git/content.md)
+前阵子在新加入的项目组内分享了 git 的介绍， [ppt](/assert/ppt/?title=how-to-git&md=/assert/ppt/how-to-git/content.md)
 
 git 并非银弹，跟 svn 对比其优势如下：
 

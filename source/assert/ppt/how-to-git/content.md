@@ -3,19 +3,19 @@
 - - -
 
 ## what is git
-[![wiki-git](/ppt/how-to-git/wiki-git.png)](https://zh.m.wikipedia.org/wiki/Git)
+[![wiki-git](/assert/ppt/how-to-git/wiki-git.png)](https://zh.m.wikipedia.org/wiki/Git)
 
 - - -
 `Linus Torvalds`<br/>
-[![linus](/ppt/how-to-git/linus.png)](https://en.m.wikiquote.org/wiki/Linus_Torvalds)
+[![linus](/assert/ppt/how-to-git/linus.png)](https://en.m.wikiquote.org/wiki/Linus_Torvalds)
 
 
 - - -
 ## summary
 
 - git 对比 svn
-- git 基本概念 
-- git 常用指令 
+- git 基本概念
+- git 常用指令
 - git 社区/服务
 
 - - -
@@ -23,14 +23,14 @@
 
 ---
 #### svn
-![svn 流程](/ppt/how-to-git/svn.jpg)
+![svn 流程](/assert/ppt/how-to-git/svn.jpg)
 
 ---
 ### 单一中心与分布式
 
 ---
 #### git
-![git 流程](/ppt/how-to-git/git.jpg)
+![git 流程](/assert/ppt/how-to-git/git.jpg)
 
 ---
 ### 拉分支与打tag
@@ -56,7 +56,7 @@
 
 ---
 #### svn
-![svn branch](/ppt/how-to-git/svn-line.png)
+![svn branch](/assert/ppt/how-to-git/svn-line.png)
 
 ---
 #### git
@@ -65,7 +65,7 @@
 
 ---
 #### git
-![git branch](/ppt/how-to-git/git-line.png)
+![git branch](/assert/ppt/how-to-git/git-line.png)
 
 
 ---
@@ -90,14 +90,14 @@
 - 远端版本库（Remote Repository）
 
 ---
-![git process](/ppt/how-to-git/git-process-summary.png)
+![git process](/assert/ppt/how-to-git/git-process-summary.png)
 
 ---
-![git process](/ppt/how-to-git/git-process.jpg)
+![git process](/assert/ppt/how-to-git/git-process.jpg)
 
 ---
 ### git - 简易指南
-[![git - 简易指南](/ppt/how-to-git/git-guide.png)](http://www.bootcss.com/p/git-guide/)
+[![git - 简易指南](/assert/ppt/how-to-git/git-guide.png)](http://www.bootcss.com/p/git-guide/)
 
 - - -
 ## Git 常用指令
@@ -108,7 +108,7 @@
 - git clone <origin> <local>
 
 ---
-### git checkout 
+### git checkout
 
 - git checkout [branch]
 - git checkout -b [new branch]
@@ -129,7 +129,7 @@
 - git remote -v
 
 ---
-![git command](/ppt/how-to-git/git-command-summary.png)
+![git command](/assert/ppt/how-to-git/git-command-summary.png)
 
 ---
 ### 其他
@@ -142,7 +142,7 @@
 
 ---
 ### GIT CHEAT SHEET
-[![GIT CHEAT SHEET](/ppt/how-to-git/git-command-cheat.png)](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+[![GIT CHEAT SHEET](/assert/ppt/how-to-git/git-command-cheat.png)](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 
 
 
@@ -152,15 +152,15 @@
 
 ---
 ### github
-![github.logo](/ppt/how-to-git/github.logo.png)
+![github.logo](/assert/ppt/how-to-git/github.logo.png)
 
 ---
 ### gitlab
-![gitlab.logo](/ppt/how-to-git/gitlab.logo.png)
+![gitlab.logo](/assert/ppt/how-to-git/gitlab.logo.png)
 
 ---
 ### git.code.oa.com
-![git.code.oa.logo](/ppt/how-to-git/git.code.logo.svg)
+![git.code.oa.logo](/assert/ppt/how-to-git/git.code.logo.svg)
 
 ---
 
@@ -179,10 +179,9 @@
 ---
 
 ### Fork
-![fork](/ppt/how-to-git/fork.jpg)
+![fork](/assert/ppt/how-to-git/fork.jpg)
 
 ---
-![github.fork](/ppt/how-to-git/github.fork.png)<br/>
-![gitlab.fork](/ppt/how-to-git/gitlab.fork.png)<br/>
-![gitlab.fork](/ppt/how-to-git/git.code.fork.png)
-
+![github.fork](/assert/ppt/how-to-git/github.fork.png)<br/>
+![gitlab.fork](/assert/ppt/how-to-git/gitlab.fork.png)<br/>
+![gitlab.fork](/assert/ppt/how-to-git/git.code.fork.png)
