@@ -1,0 +1,12 @@
+.third-links {
+    display: inline-block;
+}
+.third-links a{
+    display: inline-block;
+    margin-left:1em;
+}
+
+.third-links a img{
+    display: inline;
+    margin:0;
+}
