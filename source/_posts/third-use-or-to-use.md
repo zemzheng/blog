@@ -27,6 +27,6 @@ tags:
 
 
 {% raw %}
-<link rel="stylesheet" href="./page.css"/>
-<script src="./page.js"></script>
+<link rel="stylesheet" href="/assert/third-use-or-to-use/page.css"/>
+<script src="/assert/third-use-or-to-use/page.js"></script>
 {% endraw %}
