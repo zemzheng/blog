@@ -11,7 +11,7 @@ const [ useNpx, useEslint, useTslint ] = process.argv[ 2 ].split(/\s/g).map(
 
 pkgjson.husky = {
     hooks: {
-        "precommit": "lint-staged",
+        "pre-commit": "lint-staged",
         "commit-msg": useNpx
             ? "npx commitlint -E HUSKY_GIT_PARAMS"
             : "commitlint -E HUSKY_GIT_PARAMS"
@@ -23,19 +23,30 @@ pkgjson.config = {
     }
 };
 
-const { linters } = (pkgjson[ "lint-staged" ] = { linters: {} });
-
+const jsExts = "*.{js,jsx}";
+const lintStaged = "lint-staged";
 if (useEslint) {
-    linters[ "*.{js,jsx}" ] = [
-        useNpx
-            ? "npx eslint --fix"
-            : "eslint --fix",
-        "git add"
-    ];
+    pkgjson[ lintStaged ] = {
+        ...pkgjson[ lintStaged ],
+        [ jsExts ]: [
+            useNpx
+                ? "npx eslint --fix"
+                : "eslint --fix",
+            "git add"
+        ]
+    }
 }
-
+const tsExts = "*.{ts,tsx}";
 if (useTslint) {
-    linters[ "*.{ts,tsx}" ] = [ "tslint --fix", "git add" ];
+    pkgjson[ lintStaged ] = {
+        ...pkgjson[ lintStaged ],
+        [ tsExts ]: [
+            useNpx
+                ? "npx tslint --fix"
+                : "tslint --fix",
+            "git add"
+        ]
+    }
 }
 
 fs.writeFileSync(

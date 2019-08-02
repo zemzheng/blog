@@ -8,6 +8,9 @@ tags:
 现在有越来越多的工具可以协助我们来维护项目的开发，避免不规范的代码和提交信息，并自动从 commit message 里面提取 changelog。
 现在手头几个日常项目都陆续加上这些工具来提升开发体验，这里就顺带来记录下都用了些什么东西
 
+`更新:`
+- 2019-08-02 lint-staged 有调整，需要修改 pre-commit 及 ignore 配置
+
 
 ## 太长不看篇：
 ```bash
@@ -65,11 +68,8 @@ echo "module.exports = {extends: ['@commitlint/config-conventional']};" \
 // package.json 配置例子
 {
   "lint-staged": {
-    "linters": {
-      "*.{js,jsx}": ["eslint --fix", "git add"],
-      "*.{ts,tsx}": ["tslint --fix", "git add"]
-    },
-    "ignore": ["./dist/**"]
+    "*.{js,jsx}": ["eslint --fix", "git add"],
+    "*.{ts,tsx}": ["tslint --fix", "git add"]
   }
 }
 ```
@@ -86,7 +86,7 @@ echo "module.exports = {extends: ['@commitlint/config-conventional']};" \
 ```javascript
 "husky": {
     "hooks": {
-        "precommit": "lint-staged",
+        "pre-commit": "lint-staged",
         "commit-msg": "npx commitlint -E HUSKY_GIT_PARAMS"
     }
 }
