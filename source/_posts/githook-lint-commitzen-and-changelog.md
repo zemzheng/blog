@@ -9,16 +9,22 @@ tags:
 现在手头几个日常项目都陆续加上这些工具来提升开发体验，这里就顺带来记录下都用了些什么东西
 
 `更新:`
-- 2019-08-02 lint-staged 有调整，需要修改 pre-commit 及 ignore 配置
+- 2019-08-02 lint-staged 有调整，需要修改 pre-commit 及 ignore 配置，并建议配置上 prettier
 
 
 ## 太长不看篇：
+
+- 执行
 ```bash
 # 在项目根目录执行
 bash <(curl https://blog.ziey.me/assert/githook-lint-commitzen-and-changelog/init.sh)
 ```
 
-
+- 建议配置 prettier
+```sh
+npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+# 然后 eslintrc 里面 extends 加上 extends: [ ..., "plugin:prettier/recommended" ]
+```
 ## *lint
 `格式检查工具`
 - [tslint](https://palantir.github.io/tslint/)
